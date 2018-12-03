@@ -10,7 +10,7 @@ Organization:
 - hackinthebox.org, that super hacking conference
 - XCTF, XCTF League from China
 
-We are finally back to the city of gold. The badge for Dubai this time is based on STMF103 and LoRa. 
+We are finally back to Dubaii. The badge for Dubai this time is based on STMF103 and LoRa checkout [hackerbadge.com](hackersbadge.com) 
 
 Once again, i received invitation to make a hardware hacking challange for XCTF. Considering CTF team might not have the right tools to mess around with. I decided to make the challange with the previous conference badge. 
 
@@ -21,17 +21,16 @@ For this CTF, once you received the badge. You will be able to see this. (more o
 ![alt text](https://raw.githubusercontent.com/xwings/ctf.hitb2018dxb/master/pic/boardctf.jpg)
 
 
-Challange 0:
-
-Previous Beijing CTF, we used LED and some firmware tweak. So this time round we gonna use buttons and Bootrooms.
+Previous Beijing CTF, we used LED and some firmware tweak. This time round will be buttons, gpio and bootloader.
 
 Chllange Desc:
 * cat /etc/flag by solving buttons and bootloader
+
+To Fix:
 * Buttons: GPIO 37, 37H for ON and 38L for OFF
 * [Bootloader: ](https://breed.hackpascal.net/) a closesouce and free bootloader
 
 Flag formation:
-
 * rc.local will string the very last line of /dev/mtd0 and md5 the stings
 * rc.local will md5hash /etc/shadow
 * join the two md5 will be the flag
@@ -63,7 +62,7 @@ while True:
 ```
 
 Capture The Flag:
-* Use the python script enter into bootrom
+* Use the python script and force the bdage enter into bootloader (aka DFU)
 * run btntest, fix gpio
 * Downloaded firmware from the XCTF portal
 * Split squashfs backup /etc/shadow and patch it with blank password
@@ -74,4 +73,4 @@ Capture The Flag:
 Flag after reboot and cat /etc/flag
 e053d76b66954751fce0d03e50a89486726325f078ba59944900f21440b79409
 
-End result, ony one team able to solve this challange. I guess hardware CTF still not a trend and i do hope we can make more hardware challange in the future.
+End result, ony one team able to solve this challange. Hardware CTF still not a trend and hope we can make more hardware challange in the future.
