@@ -1,5 +1,5 @@
-Date: 27th - 28th Nov 2018
-Event: HITB is back to DXB, the city of gold
+Date: 27th - 28th Nov 2018\s\s
+Event: HITB is back to DXB, the city of gold\s\s
 Description: HITB-XCTF, 2018
 
 Organization:
