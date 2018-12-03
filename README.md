@@ -1,6 +1,8 @@
-#Date: 27th - 28th Nov 2018
-#Event: HITB is back to DXB, the city of gold
-#Description: HITB-XCTF, 2018
+Date: 27th - 28th Nov 2018
+
+Event: HITB is back to DXB, the city of gold
+
+Description: HITB-XCTF, 2018
 
 Organization:
 - theshepherdlab.org, a research lab by JD Security
@@ -26,7 +28,7 @@ Previous Beijing CTF, we used LED and some firmware tweak. So this time round we
 Chllange Desc:
 * cat /etc/flag by solving buttons and bootloader
 * Buttons: GPIO 37, 37H for ON and 38L for OFF
-* Bootloader: https://breed.hackpascal.net/ , a closesouce and free bootloader
+* [Bootloader: ](https://breed.hackpascal.net/) a closesouce and free bootloader
 
 Flag formation:
 
