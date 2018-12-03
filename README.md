@@ -1,6 +1,8 @@
-> Date: 27th - 28th Nov 2018
-> Event: HITB is back to DXB, the city of gold
-> Description: HITB-XCTF, 2018
+Date: 27th - 28th Nov 2018
+
+Event: HITB is back to DXB, the city of gold
+
+Description: HITB-XCTF, 2018
 
 Organization:
 - theshepherdlab.org, a research lab by JD Security
