@@ -1,6 +1,6 @@
-Date: 27th - 28th Nov 2018\s\s
-Event: HITB is back to DXB, the city of gold\s\s
-Description: HITB-XCTF, 2018
+> Date: 27th - 28th Nov 2018
+> Event: HITB is back to DXB, the city of gold
+> Description: HITB-XCTF, 2018
 
 Organization:
 - theshepherdlab.org, a research lab by JD Security
@@ -12,7 +12,7 @@ We are finally back to the city of gold. The badge for Dubai this time is based 
 
 Once again, i received invitation to make a hardware hacking challange for XCTF. Considering CTF team might not have the right tools to mess around with. I decided to make the challange with the previous conference badge. 
 
-more info https://github.com/xwings/ctf.jdhitb2018pek
+more info for [previous ctf](https://github.com/xwings/ctf.jdhitb2018pek)
 
 For this CTF, once you received the badge. You will be able to see this. (more or less, i changed abit before the challange)
 
