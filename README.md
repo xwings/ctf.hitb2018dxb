@@ -73,4 +73,6 @@ Capture The Flag:
 Flag after reboot and cat /etc/flag
 e053d76b66954751fce0d03e50a89486726325f078ba59944900f21440b79409
 
+*** Firmware included in this repo ***
+
 End result, ony one team able to solve this challange. Hardware CTF still not a trend and hope we can make more hardware challange in the future.
